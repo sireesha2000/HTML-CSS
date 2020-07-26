@@ -1,0 +1,189 @@
+.footer {
+	margin: 0 auto;
+}
+.footer-mobile {
+	display: none;
+}
+.top-footer-container {
+	border-top:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+	max-width: 100%;
+}
+.top-footer {
+	max-width: 1180px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+//.left-footer, .right-footer {
+	display: inline-flex;
+	justify-content: space-between;
+	//margin: auto;
+	width: 100%;
+}
+
+.footer-headline {
+	font-family: FuturaPTDemi;
+	font-size: 18px;
+}
+
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+.fbox ul {
+	margin-top: 54px;
+}
+.middle-line {
+	border-left: 1px solid #e5e5e5;
+	margin-right: -115px;
+}
+
+.footer-box4{
+	position: relative;
+	margin-left: -100px;
+	right: 10%;
+}
+.footer-link, .twi-text, .phone {
+	font-family: HelveticaNeue;
+	font-size: 14px;
+	margin-top: 28px;
+	display: table;
+	margin: 24px 0;
+}
+.twi-link {
+	font-family: HelveticaNeueBold;
+}
+.twi-text img {
+	padding-right: 10px;
+}
+.delivery {
+	max-width: 300px;
+	max-height: 120px;
+	font-family: TimesItalic;
+	color: #757575;
+	font-size: 16px;
+	padding: 30px 0;
+}
+.social a {
+	padding-right: 25px;
+}
+
+
+.bottom-footer { 
+	max-width: 1180px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	margin: auto;
+	font-size: 12px;
+}
+.ofl a, .copyright {
+	padding-right: 40px;
+	font-family: HelveticaNeueBold;
+}
+.ofl a.ofl-last{
+	padding-right: 0;
+}
+.share {
+	display: flex;
+	align-items: center;
+	font-family: FuturaPTDemi;
+	font-size: 18px;
+}
+.share-fon {
+	position	: relative;
+	width		: 100%; /* for IE 6 */
+	padding-left: 6px;
+}
+
+.share-number {
+	font-family: HelveticaNeue;
+	font-size: 12px;
+	position: absolute;
+	top: 0px;
+	left: 15px;
+	width: 100%;
+	line-height: 21px;
+}
+@media screen and (min-width:480px) and (max-width:1023px) {
+	.delivery {
+		display: none;
+	}
+	.social {
+		margin-top: 200px;
+	}
+	.footer-box4 {
+		position: absolute;
+		right: 70px;
+		margin-top: 90px;
+	}
+	.middle-line {
+		display: none;
+	}
+}
+
+@media screen and (max-width:479px) {
+	* {
+		box-sizing: border-box;
+		border-collapse: collapse;
+	}
+	//body {
+		padding: 0 20px;
+	}
+
+	.delivery, .top-footer, .bottom-footer {
+		display: none;
+	}
+	.footer-headline {
+		font-size: 14px;
+	}
+	.footer-link, .twi-text, .phone {
+		font-size: 12px;
+	}
+	.ofl a, .copyright, .share-number {
+		font-size: 10px;
+	}
+	.share {
+		font-size: 16px;
+	}
+	.footer-mobile {
+		display: initial;
+	}
+	.fist-footer, .second-footer, .third-footer, .fourth-footer{
+		display: flex;
+		justify-content: space-between;
+		padding: 0 20px;
+		border-bottom: 1px solid #e5e5e5;
+		width: 100%;
+	}
+	
+	.footer-box2{
+		padding: 0 40px;
+	}
+	.footer-box4 {
+		left: 0;
+		padding: 0 50px;
+	}
+	.middle-line {
+		margin-right: 60px;
+	}
+	.ofl {
+		max-width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+	.social {
+		position: absolute;
+		right: 0;
+		padding-top: 15px;
+	}
+	.share-fon img{
+		width: 90%;
+		//padding: 20px 0;
+	}
+}
