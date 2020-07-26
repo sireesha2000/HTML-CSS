@@ -1,0 +1,139 @@
+//.main-section{
+	margin: auto;
+}
+
+.banners {
+	width: 100%;
+	//max-width: 1300px;
+}
+.banners .banner {
+	width: 50%;
+  	float: left;
+}
+.banners .banner img {
+	border: 1px solid #e5e5e5;
+	border-collapse: collapse;
+	width: 100%;
+	
+	box-sizing: border-box; 
+}
+.clear {
+	clear: both;
+}
+
+.headline-tb {
+	font-family: FuturaPTDemi;
+	font-size: 26px;
+	font-weight: lighter;
+	text-align: center;
+}
+.extra {
+	color: #f14a58;
+}
+.text-tb{
+	font-family: TimesItalic;
+	font-size: 16px;
+	text-align: center;
+}
+.text-box {
+	padding: 40px 0;
+}
+
+	/* PRODUCTS */
+.items{
+	max-width: 1180px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.pr {
+	width: 25%;
+  	float: left;
+}
+.item-description{
+	max-width: 200px;	
+	margin: 0 auto;
+}
+.item-name {
+	font-family: HelveticaNeueBold;
+	font-size: 14px;
+}
+.item-price {
+	font-family: HelveticaNeue;
+	font-size: 14px;
+}
+	/* PRODUCTS */
+.show-more {
+	border: 1px solid #e5e5e5;
+	position: relative;
+	margin: 50px -170px;
+	left: 50%;
+	width: 340px;
+	height: 75px;
+	text-align: center;	
+	font-family: FuturaPTDemi;
+	font-size: 26px;
+	font-weight: lighter;
+	line-height: 75px;
+}
+.show-more:hover{
+	background-color: #e5e5e5;
+	color: #000;
+}
+
+.new {
+	font-family: TimesItalic; 
+	font-size: 16px;
+	color: #757575;
+}
+.sale-price {
+	font-family: HelveticaNeue; 
+	font-size: 14px;
+	color: #757575;
+}
+ 	
+
+
+@media screen and (min-width:480px) and (max-width:1023px) {
+	.item4 {
+		display: none;
+	}	
+	.pr {
+		width: 33%;
+	}
+	.pr a img {
+		max-width: 204px;
+	}
+	.item-description{
+		max-width: 180px;	
+	}
+}
+
+@media screen and (max-width:479px) {
+	.right-banner, .item3, .item4 {
+		display: none;
+	}
+	.banners .banner {
+		width: 100%;
+	}
+	.pr {
+		width: 50%;
+	}
+	.pr a img {
+		max-width: 158px;
+		//max-width: 80%;
+	}
+	.item-description{
+		max-width: 140px;	
+	}
+	.item-name, .item-price {
+		font-size: 12px;
+	}
+	.show-more {
+	width: 220px;
+	height: 62px;
+	line-height: 62px;
+	margin: 31px -110px;
+	text-align: center;	
+	}
+}
